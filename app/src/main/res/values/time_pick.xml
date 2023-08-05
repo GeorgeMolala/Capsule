@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="time_pick_style">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="time_pick_style_small">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="time_pick_style_xlarge">
+        <item name="android:textSize"> 70sp</item>
+        <item name="android:fontWeight">900</item>
+    </style>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Capsule.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/Theme.Capsule.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TimePicker
+        android:id="@+id/timePick1"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="300dp"
+        android:amPmTextColor="@color/colorAccent"
+        android:fontFamily="@font/sigmar_one"
+        android:headerAmPmTextAppearance="@color/colorAccent"
+        android:headerBackground="@color/colorPrimaryDark"
+        android:headerTimeTextAppearance="@style/TextAppearance.AppCompat.Large"
+        android:numbersBackgroundColor="@color/colorPrimary"
+        android:numbersInnerTextColor="@color/colorAccent"
+        android:numbersTextColor="@color/colorAccent"
+        android:scrollbarSize="80dp"
+        android:theme="@style/time_pick_style_xlarge"
+        android:timePickerMode="spinner"
+        android:touchscreenBlocksFocus="false" />
+
+
+
+
+
+
+    <TextView
+        android:text="  Application Time Management"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textSize="35dp"
+        android:layout_marginTop="685dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/textView2" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="1900px"
+        android:layout_marginTop="685dp"
+        android:background="@drawable/switch_xlarge"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="775dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:text="  Set Restriction"
+        android:textColor="@color/colorAccent"
+        android:textSize="35dp"
+        app:rippleColor="@color/colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="1900px"
+        android:layout_marginTop="795dp"
+        android:background="@null"
+        android:contentDescription="Works like fun"
+        android:src="@drawable/button" />
+
+    <TextView
+        android:text="  Apps Statistics"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textSize="35dp"
+        android:layout_marginTop="865dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btn_Stats" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
